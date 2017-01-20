@@ -48,6 +48,7 @@
 		</dependency>
     </dependencies>
 
+   <!-- Changing the Java version  -->
     <properties>
         <java.version>1.8</java.version>
     </properties>
