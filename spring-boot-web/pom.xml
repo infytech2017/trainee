@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.springframework</groupId>
-	<artifactId>spring-boot</artifactId>
+	<artifactId>spring-boot-web</artifactId>
 	<version>0.1.0</version>
 
 	<parent>
@@ -13,7 +13,7 @@
 		<version>1.4.3.RELEASE</version>
 	</parent>
 
-	<!--Spring Boot Application : Embedded Container-->
+	<!-- Spring MVC Web Service with Spring Boot -->
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

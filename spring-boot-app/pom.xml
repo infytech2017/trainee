@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.springframework</groupId>
-	<artifactId>spring-boot-rest</artifactId>
+	<artifactId>spring-boot-app</artifactId>
 	<version>0.1.0</version>
 
 	<parent>
@@ -13,7 +13,7 @@
 		<version>1.4.3.RELEASE</version>
 	</parent>
 
-	<!-- RESTful Service with Spring Boot -->
+	<!--Spring Boot Application : Embedded Container-->
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
