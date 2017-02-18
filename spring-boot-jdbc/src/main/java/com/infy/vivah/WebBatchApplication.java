@@ -14,5 +14,6 @@ public class WebBatchApplication extends SpringBootServletInitializer {
 
 	public static void main(String[] args) throws Exception {
 		SpringApplication.run(WebBatchApplication.class, args);
+		
 	}
 }
