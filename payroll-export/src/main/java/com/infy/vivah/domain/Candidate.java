@@ -132,6 +132,16 @@ public class Candidate {
 	public String getContactNumbers() {
 		return contactNumbers;
 	}
+	@Override
+	public String toString() {
+		return "Candidate [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", complexion="
+				+ complexion + ", dateOfBirth=" + dateOfBirth + ", height=" + height + ", weight=" + weight
+				+ ", placeOfBirth=" + placeOfBirth + ", religion=" + religion + ", maritalStatus=" + maritalStatus
+				+ ", qualifications=" + qualifications + ", occupation=" + occupation + ", salary=" + salary
+				+ ", fatherName=" + fatherName + ", motherName=" + motherName + ", permanentAddress=" + permanentAddress
+				+ ", maternalSurname=" + maternalSurname + ", email=" + email + ", contactNumbers=" + contactNumbers
+				+ ", city=" + city + "]";
+	}
 	public void setContactNumbers(String contactNumbers) {
 		this.contactNumbers = contactNumbers;
 	}

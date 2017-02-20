@@ -17,7 +17,7 @@ public class PayrollExportProcessor {
 	private String message = "Hello World";
 
 	@Autowired
-	PayrollExportReaderDao candidateDao;
+	PayrollExportReaderDao payrollExportReaderDao;
 
 	// User Request End Service URL -Default
 	public String welcomePage() { // request
@@ -27,7 +27,7 @@ public class PayrollExportProcessor {
 
 	public List<Candidate> getCandidate(Integer id) { // request
 														// handling/processing
-		List<Candidate> candidateList = candidateDao.getCandidate(id);
+		List<Candidate> candidateList = payrollExportReaderDao.getCandidate(id);
 		return candidateList; // logical view name (actual view
 								// =prefix+logicalview+suffix)
 	}
