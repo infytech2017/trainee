@@ -41,8 +41,7 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/spring-boot-app/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-boot-web/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-rest-service/pom.xml" />
       </list>
     </option>
   </component>
