@@ -16,8 +16,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 //same as @Configuration @EnableAutoConfiguration @ComponentScan
 public class BootApplication {
 	public static void main(String[] args) {
-		System.out.println("Starting - Spring Boot Application");
+		System.out.println("*** Starting - Spring Boot Application");
 		SpringApplication.run(BootApplication.class, args);
-		System.out.println("Started - Spring Boot Application");
+		System.out.println("*** Started - Spring Boot Application");
 	}
 }
