@@ -1,4 +1,4 @@
-package com.infy.singleton;
+package com.infy.collection;
 
 /**
  * Created by ravi on 01/04/2017.
