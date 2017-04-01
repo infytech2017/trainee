@@ -12,7 +12,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
   Why Spring Boot? Very Imp - https://dzone.com/articles/why-springboot
  */
 
-@SpringBootApplication 
+@SpringBootApplication
 //same as @Configuration @EnableAutoConfiguration @ComponentScan
 public class BootApplication {
 	public static void main(String[] args) {
