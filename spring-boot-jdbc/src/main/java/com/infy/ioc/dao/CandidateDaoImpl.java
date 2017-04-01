@@ -1,4 +1,4 @@
-package com.infy.vivah.dao;
+package com.infy.ioc.dao;
 
 import java.sql.Types;
 import java.util.List;
@@ -7,9 +7,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
-import com.infy.vivah.domain.Candidate;
-import com.infy.vivah.mapper.CandidateByCityRowMapper;
-import com.infy.vivah.mapper.CandidateRowMapper;
+import com.infy.ioc.domain.Candidate;
+import com.infy.ioc.mapper.CandidateByCityRowMapper;
+import com.infy.ioc.mapper.CandidateRowMapper;
 
 @Repository
 public class CandidateDaoImpl implements CandidateDao {

@@ -1,4 +1,4 @@
-package com.infy.di;
+package com.infy.ioc;
 
 /**
  * Created by ravi on 01/04/2017.

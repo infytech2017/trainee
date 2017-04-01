@@ -1,4 +1,4 @@
-package com.infy.vivah.domain;
+package com.infy.ioc.domain;
 
 public class Candidate {
 

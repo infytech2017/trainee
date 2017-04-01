@@ -1,10 +1,10 @@
-package com.infy.vivah.dao;
+package com.infy.ioc.dao;
 
 import java.util.List;
 
 import org.springframework.stereotype.Repository;
 
-import com.infy.vivah.domain.Candidate;
+import com.infy.ioc.domain.Candidate;
 
 @Repository
 public interface CandidateDao {

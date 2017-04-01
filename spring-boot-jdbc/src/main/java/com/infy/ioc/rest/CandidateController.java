@@ -1,7 +1,7 @@
-package com.infy.vivah.rest;
+package com.infy.ioc.rest;
 
-import com.infy.vivah.dao.CandidateDao;
-import com.infy.vivah.domain.Candidate;
+import com.infy.ioc.dao.CandidateDao;
+import com.infy.ioc.domain.Candidate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;

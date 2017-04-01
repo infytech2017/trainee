@@ -1,11 +1,11 @@
-package com.infy.vivah.mapper;
+package com.infy.ioc.mapper;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import org.springframework.jdbc.core.RowMapper;
 
-import com.infy.vivah.domain.Candidate;
+import com.infy.ioc.domain.Candidate;
 
 public class CandidateByCityRowMapper implements RowMapper<Candidate> {
 
