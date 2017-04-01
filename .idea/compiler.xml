@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-batch-processing" />
+        <module name="spring-boot-app" />
+        <module name="spring-boot-jdbc" />
+        <module name="spring-boot-rest" />
+        <module name="spring-boot-web-jsp" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="spring-batch-processing" target="1.8" />
+      <module name="spring-boot-app" target="1.6" />
+      <module name="spring-boot-jdbc" target="1.8" />
+      <module name="spring-boot-rest" target="1.6" />
+      <module name="spring-boot-web-jsp" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

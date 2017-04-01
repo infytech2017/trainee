@@ -1,16 +1,15 @@
 package com.infy.vivah.rest;
 
-import java.util.List;
-import java.util.Map;
-
+import com.infy.vivah.dao.CandidateDao;
+import com.infy.vivah.domain.Candidate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.infy.vivah.dao.CandidateDao;
-import com.infy.vivah.domain.Candidate;
+import java.util.List;
+import java.util.Map;
 
 @Controller
 public class CandidateController {
@@ -21,10 +20,10 @@ public class CandidateController {
 
 	@Autowired
 	CandidateDao candidateDao;
-	
+
 	@RequestMapping("/") // User Request End Service URL -Default
 	public String welcomePage() { // request
-		return "welcome"; 
+		return "welcome";
 		// logical view name (actual view =prefix+logicalview+suffix)
 	}
 
