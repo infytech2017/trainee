@@ -6,14 +6,14 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class WebBatchApplication extends SpringBootServletInitializer {
+public class WebJdbcApplication extends SpringBootServletInitializer {
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(WebBatchApplication.class);
+		return application.sources(WebJdbcApplication.class);
 	}
 
 	public static void main(String[] args) throws Exception {
-		SpringApplication.run(WebBatchApplication.class, args);
+		SpringApplication.run(WebJdbcApplication.class, args);
 		
 	}
 }
