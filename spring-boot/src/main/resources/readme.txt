@@ -1,0 +1,1 @@
+Simply Spring Boot Basic Configuration and to start embedded server-Tomcat
