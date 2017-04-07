@@ -24,13 +24,6 @@
             <artifactId>spring-boot-starter-jdbc</artifactId>
         </dependency>
 
-        <!-- Oracle JDBC connectivity -->
-        <dependency>
-            <groupId>com.oracle</groupId>
-            <artifactId>ojdbc6</artifactId>
-            <version>11.2.0</version>
-        </dependency>
-
 		<!-- JSTL -->
 		<dependency>
 			<groupId>javax.servlet</groupId>
@@ -51,13 +44,18 @@
 			<version>4.6.1</version>
 			<scope>provided</scope>
 		</dependency>
+
+        <dependency>
+            <groupId>com.oracle</groupId>
+            <artifactId>ojdbc14</artifactId>
+            <version>10.2.0.3.0</version>
+        </dependency>
     </dependencies>
 
    <!-- Changing the Java version  -->
     <properties>
         <java.version>1.8</java.version>
     </properties>
-
 
     <build>
         <plugins>

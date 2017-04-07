@@ -1,0 +1,6 @@
+com\infy\di\BootApplication.class
+com\infy\di\InfyEmployment.class
+com\infy\di\Address.class
+com\infy\di\Employee1.class
+com\infy\di\Employee2.class
+com\infy\singleton\InfyEmpt.class

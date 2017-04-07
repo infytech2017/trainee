@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/spring-boot-app" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-batch" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-jdbc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-rest" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-web" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-rest-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-java" charset="UTF-8" />
   </component>
 </project>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringExample/SpringExample.iml" filepath="$PROJECT_DIR$/SpringExample/SpringExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-jdbc/spring-boot-jdbc.iml" filepath="$PROJECT_DIR$/spring-boot-jdbc/spring-boot-jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-rest/spring-boot-rest.iml" filepath="$PROJECT_DIR$/spring-boot-rest/spring-boot-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-web/spring-boot-web.iml" filepath="$PROJECT_DIR$/spring-boot-web/spring-boot-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-java/spring-java.iml" filepath="$PROJECT_DIR$/spring-java/spring-java.iml" />
+    </modules>
+  </component>
+</project>
