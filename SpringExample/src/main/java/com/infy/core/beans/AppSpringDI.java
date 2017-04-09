@@ -3,7 +3,7 @@ package com.infy.core.beans;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class AppSpringDependency
+public class AppSpringDI
 {
     public static void main( String[] args )
     {
