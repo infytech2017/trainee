@@ -1,4 +1,4 @@
-<!-- Spring-Common.xml -->
+<!-- spring-common.xml -->
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans

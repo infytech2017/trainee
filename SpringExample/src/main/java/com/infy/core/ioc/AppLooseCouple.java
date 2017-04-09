@@ -11,7 +11,7 @@ public class AppLooseCouple {
     public static void main( String[] args )
     {
     ApplicationContext context =
-            new ClassPathXmlApplicationContext(new String[] {"Spring-Common.xml"});
+            new ClassPathXmlApplicationContext(new String[] {"spring-common.xml"});
 
     OutputHelper output = (OutputHelper)context.getBean("OutputHelper");
         output.generateOutput();

@@ -12,7 +12,7 @@ public class AppXmlBean
 {
     public static void main( String[] args )
     {
-    	ApplicationContext context = new ClassPathXmlApplicationContext("Spring-Module.xml");  //domain creation
+    	ApplicationContext context = new ClassPathXmlApplicationContext("spring-module.xml");  //domain creation
         HelloWorld helloBean = (HelloWorld) context.getBean("helloBean"); //getting domain from container
         helloBean.printHello();
     }
