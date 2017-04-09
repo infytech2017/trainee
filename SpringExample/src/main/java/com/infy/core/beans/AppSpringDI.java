@@ -10,5 +10,11 @@ public class AppSpringDI
     	ApplicationContext ctx = new ClassPathXmlApplicationContext("spring-bean.xml");
     	ExampleBean exampleBean = (ExampleBean) ctx.getBean("exampleBean");
     	exampleBean.callExampleMethod();
+
+        ExampleBeanBySetter exampleBeanBySetter = (ExampleBeanBySetter) ctx.getBean("exampleBeanBySetter");
+        exampleBeanBySetter.callExampleMethod();
+
+        ExampleBeanByCons exampleBeanByCons = (ExampleBeanByCons) ctx.getBean("exampleBeanByCons");
+        exampleBeanByCons.callExampleMethod();
     }
 }

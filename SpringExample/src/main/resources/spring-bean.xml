@@ -10,8 +10,14 @@
     <bean id="injectedBean" class="com.infy.core.beans.InjectedBeanImpl"/>
  
 	<bean id="exampleBean" class="com.infy.core.beans.ExampleBean">
-  		<constructor-arg ref="injectedBean"/>
-  		<!-- <property name="injectedBean" ref="injectedBean"/> -->
+	</bean>
+
+	<bean id="exampleBeanByCons" class="com.infy.core.beans.ExampleBeanByCons">
+		<constructor-arg ref="injectedBean"/>
+	</bean>
+
+	<bean id="exampleBeanBySetter" class="com.infy.core.beans.ExampleBeanBySetter">
+		 <property name="injectedBean" ref="injectedBean"/>
 	</bean>
     
 </beans>
