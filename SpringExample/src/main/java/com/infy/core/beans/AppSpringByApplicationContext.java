@@ -12,5 +12,11 @@ public class AppSpringByApplicationContext
         //ApplicationContext ctx = new AnnotationConfigApplicationContext("com.infy.core.bean");  //It loads bean definitions from XML files located in the classpath.
     	ExampleBean exampleBean = (ExampleBean) ctx.getBean("exampleBean");
     	exampleBean.callExampleMethod();
+
+        /*AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(
+                MyConfiguration.class);
+        MyService service = ctx.getBean(MyService.class);
+        service.currentDate();
+        System.out.println("service hashcode="+service.hashCode());*/
     }
 }
