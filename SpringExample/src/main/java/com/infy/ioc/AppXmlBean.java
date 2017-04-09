@@ -1,6 +1,6 @@
-package com.infy;
+package com.infy.ioc;
 
-import com.infy.domain.HelloWorld;
+import com.infy.ioc.domain.HelloWorld;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -8,7 +8,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  * Hello world!
  *
  */
-public class AppSpringXmlBean
+public class AppXmlBean
 {
     public static void main( String[] args )
     {

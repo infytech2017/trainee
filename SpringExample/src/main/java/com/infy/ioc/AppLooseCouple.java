@@ -1,13 +1,13 @@
-package com.infy;
+package com.infy.ioc;
 
-import com.infy.impl.OutputHelper;
+import com.infy.ioc.util.OutputHelper;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
  * Created by ravi on 07/04/2017.
  */
-public class AppSpringLooseCouple {
+public class AppLooseCouple {
     public static void main( String[] args )
     {
     ApplicationContext context =

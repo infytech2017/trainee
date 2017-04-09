@@ -5,7 +5,7 @@ import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
 /**
- * Unit test for simple com.infy.AppSpringXmlBean.
+ * Unit test for simple com.infy.ioc.AppXmlBean.
  */
 public class AppTest 
     extends TestCase

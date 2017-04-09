@@ -1,4 +1,4 @@
-package com.infy.impl;
+package com.infy.ioc.dao;
 
 /**
  * Created by ravi on 07/04/2017.

@@ -1,4 +1,6 @@
-package com.infy.impl;
+package com.infy.ioc.util;
+
+import com.infy.ioc.dao.IOutputGenerator;
 
 public class OutputHelper
 {

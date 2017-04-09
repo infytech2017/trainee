@@ -1,4 +1,4 @@
-package com.infy.domain;
+package com.infy.ioc.domain;
 
 /**
  * Hello world!
