@@ -1,4 +1,4 @@
-package com.mkyong.output;
+package com.infy.impl;
 
 public class OutputHelper
 {

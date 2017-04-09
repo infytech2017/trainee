@@ -1,12 +1,13 @@
-package com.mkyong.common;
-import com.mkyong.output.OutputHelper;
+package com.infy;
+
+import com.infy.impl.OutputHelper;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
  * Created by ravi on 07/04/2017.
  */
-public class Application {
+public class AppSpringLooseCouple {
     public static void main( String[] args )
     {
     ApplicationContext context =

@@ -1,4 +1,4 @@
-package com.mkyong.output;
+package com.infy.impl;
 
 /**
  * Created by ravi on 07/04/2017.

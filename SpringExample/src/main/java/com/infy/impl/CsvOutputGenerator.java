@@ -1,6 +1,4 @@
-package com.mkyong.output.impl;
-
-import com.mkyong.output.IOutputGenerator;
+package com.infy.impl;
 
 public class CsvOutputGenerator implements IOutputGenerator
 {
