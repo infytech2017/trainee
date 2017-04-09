@@ -1,6 +1,6 @@
-package com.infy.ioc.dao.impl;
+package com.infy.core.ioc.dao.impl;
 
-import com.infy.ioc.dao.IOutputGenerator;
+import com.infy.core.ioc.dao.IOutputGenerator;
 
 public class CsvOutputGenerator implements IOutputGenerator
 {

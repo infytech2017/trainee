@@ -1,6 +1,6 @@
-package com.infy.ioc;
+package com.infy.core.ioc;
 
-import com.infy.ioc.domain.HelloWorld;
+import com.infy.core.ioc.domain.HelloWorld;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

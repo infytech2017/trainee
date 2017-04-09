@@ -4,11 +4,11 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
 http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 
-    <bean id="OutputHelper" class="com.infy.ioc.util.OutputHelper">
+    <bean id="OutputHelper" class="com.infy.core.ioc.util.OutputHelper">
         <property name="outputGenerator" ref="CsvOutputGenerator" />
     </bean>
 
-    <bean id="CsvOutputGenerator" class="com.infy.ioc.dao.impl.CsvOutputGenerator" />
-    <bean id="JsonOutputGenerator" class="com.infy.ioc.dao.impl.JsonOutputGenerator" />
+    <bean id="CsvOutputGenerator" class="com.infy.core.ioc.dao.impl.CsvOutputGenerator" />
+    <bean id="JsonOutputGenerator" class="com.infy.core.ioc.dao.impl.JsonOutputGenerator" />
 
 </beans>

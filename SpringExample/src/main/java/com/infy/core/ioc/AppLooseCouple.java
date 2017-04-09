@@ -1,6 +1,6 @@
-package com.infy.ioc;
+package com.infy.core.ioc;
 
-import com.infy.ioc.util.OutputHelper;
+import com.infy.core.ioc.util.OutputHelper;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
