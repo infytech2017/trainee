@@ -8,6 +8,7 @@ public class AppSpringDI
     public static void main( String[] args )
     {
     	ApplicationContext ctx = new ClassPathXmlApplicationContext("spring-bean.xml");
+
     	ExampleBean exampleBean = (ExampleBean) ctx.getBean("exampleBean");
     	exampleBean.callExampleMethod();
 
