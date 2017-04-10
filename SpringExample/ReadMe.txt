@@ -12,12 +12,11 @@
 
 3) AppSpringByApplicationContext.java
    -Spring IoC Container implementation ApplicationContext Spring Xml Configuration.
-
   a) using ClassPathXmlApplicationContext   //http://java-journal.blogspot.co.uk/2012/08/what-is-applicationcontext-what-are-its.html
-  b) using FileSystemXmlApplicationContext
-  c) using AnnotationConfigApplicationContext
-  c) using - but MVC: By default Spring use XmlWebApplicationContext (an implementation of WebApplicationContext) for creating spring container in web applications. By default it loads the configuration from file "/WEB-INF/applicationContext.xml".
-  d) using - but MVC: But we can change this default value to AnnotationConfigWebApplicationContext by changing the value of contextClass parameter of ContextLoaderListener or DispatcherServlet in web.xml
+  b) using FileSystemXmlApplicationContext -- not in use
+  c) using AnnotationConfigApplicationContext -- not in use
+  d) using - but MVC: By default Spring use XmlWebApplicationContext (an implementation of WebApplicationContext) for creating spring container in web applications. By default it loads the configuration from file "/WEB-INF/applicationContext.xml".
+  e) using - but MVC: But we can change this default value to AnnotationConfigWebApplicationContext by changing the value of contextClass parameter of ContextLoaderListener or DispatcherServlet in web.xml
 
 4) AppLooseCouple.java
    -Spring Loose Coupling Example

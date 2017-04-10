@@ -10,7 +10,7 @@ public class AppSpringByBeanFactory
     public static void main( String[] args )
     {
         Resource res = new ClassPathResource("spring-bean.xml"); //Not using now a days, mostly application context used.
-        BeanFactory factory = new XmlBeanFactory(res);
+        BeanFactory factory = new XmlBeanFactory(new ClassPathResource("spring-bean.xml"));
     	ExampleBean exampleBean = (ExampleBean) factory.getBean("exampleBean");
     	exampleBean.callExampleMethod();
     }

@@ -7,7 +7,7 @@ public class ExampleBean {
 		System.out.println("Enter into ExampleBean");
 		//best practice, we should null check before calling method on reference
 		if(injectedBean!=null)
-		injectedBean.doSomething();
+			injectedBean.doSomething();
 		else{
 			System.out.println("Failed to process, because value of injectedBean is :"+ injectedBean);
 		}
