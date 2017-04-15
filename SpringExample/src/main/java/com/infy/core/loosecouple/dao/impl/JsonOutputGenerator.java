@@ -1,6 +1,6 @@
-package com.infy.core.ioc.dao.impl;
+package com.infy.core.loosecouple.dao.impl;
 
-import com.infy.core.ioc.dao.IOutputGenerator;
+import com.infy.core.loosecouple.dao.IOutputGenerator;
 
 public class JsonOutputGenerator implements IOutputGenerator
 {

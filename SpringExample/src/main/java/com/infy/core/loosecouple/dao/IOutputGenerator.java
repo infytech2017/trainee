@@ -1,4 +1,4 @@
-package com.infy.core.ioc.dao;
+package com.infy.core.loosecouple.dao;
 
 /**
  * Created by ravi on 07/04/2017.

@@ -1,6 +1,6 @@
-package com.infy.core.ioc;
+package com.infy.core.loosecouple;
 
-import com.infy.core.ioc.util.OutputHelper;
+import com.infy.core.loosecouple.util.OutputHelper;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

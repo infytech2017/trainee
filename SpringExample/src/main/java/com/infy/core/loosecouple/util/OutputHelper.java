@@ -1,6 +1,6 @@
-package com.infy.core.ioc.util;
+package com.infy.core.loosecouple.util;
 
-import com.infy.core.ioc.dao.IOutputGenerator;
+import com.infy.core.loosecouple.dao.IOutputGenerator;
 
 public class OutputHelper
 {
