@@ -17,6 +17,7 @@
 
 <!-- using @Autowiring annotation in below beans, byType and constructor -->
 <bean name="employeeAutowiredByTypeService" class="autowiring.service.EmployeeAutowiredByTypeService" />
+<bean name="employeeAutowiredByConstructorService" class="autowiring.service.EmployeeAutowiredByConstructorService" />
 </beans>
 
 

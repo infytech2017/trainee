@@ -8,11 +8,13 @@ public class EmployeeAutowiredByTypeService {
 	//Autowired annotation on variable/setters is equivalent to autowire="byType"
 	@Autowired
 	private Employee employee;
-	
-	@Autowired
+
+/*
+//OR
+@Autowired
 	public void setEmployee(Employee emp){
 		this.employee=emp;
-	}
+	}*/
 	
 	public Employee getEmployee(){
 		return this.employee;
