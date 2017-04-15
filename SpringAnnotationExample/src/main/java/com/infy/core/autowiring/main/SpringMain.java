@@ -1,4 +1,4 @@
-package autowiring.main;
+package com.infy.core.autowiring.main;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

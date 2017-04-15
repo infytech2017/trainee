@@ -1,4 +1,4 @@
-package autowiring.model;
+package com.infy.core.autowiring.model;
 
 public class Employee {
 

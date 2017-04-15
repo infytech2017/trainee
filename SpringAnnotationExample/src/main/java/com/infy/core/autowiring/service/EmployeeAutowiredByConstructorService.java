@@ -1,6 +1,6 @@
-package autowiring.service;
+package com.infy.core.autowiring.service;
 
-import autowiring.model.Employee;
+import com.infy.core.autowiring.model.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 

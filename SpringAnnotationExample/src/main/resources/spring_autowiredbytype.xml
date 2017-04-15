@@ -5,16 +5,16 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd">
 
-<bean name="employee" class="autowiring.model.Employee">
+<bean name="employee" class="com.infy.core.autowiring.model.Employee">
 	<property name="name" value="Pankaj Kumar"></property>
 </bean>
 
 	<!-- This may cause ambiguity because byType cannot resolve reference if more than 1 object created for same class type.
-<bean name="employee1" class="autowiring.model.Employee">
+<bean name="employee1" class="Employee">
 	<property name="name" value="Sheshrao Talmale"></property>
 </bean>
 -->
 	<!-- autowiring byType, there should be only one bean definition for the mapping -->
-<bean name="employeeServiceByType" class="autowiring.service.EmployeeService" autowire="byType" />
+<bean name="employeeServiceByType" class="com.infy.core.autowiring.service.EmployeeService" autowire="byType" />
 
 </beans>

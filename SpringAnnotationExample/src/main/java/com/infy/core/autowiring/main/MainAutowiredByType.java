@@ -1,6 +1,6 @@
-package autowiring.main;
+package com.infy.core.autowiring.main;
 
-import autowiring.service.EmployeeService;
+import com.infy.core.autowiring.service.EmployeeService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
