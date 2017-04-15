@@ -1,4 +1,4 @@
-package com.infy.core.beans;
+package com.infy.core.dependencyinjections.beans;
 
 public class ExampleBeanByCons {
 

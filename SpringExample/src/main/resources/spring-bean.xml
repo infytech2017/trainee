@@ -7,16 +7,16 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context-3.0.xsd">
     
-    <bean id="injectedBean" class="com.infy.core.beans.InjectedBeanImpl"/>
+    <bean id="injectedBean" class="com.infy.core.dependencyinjections.beans.InjectedBeanImpl"/>
  
-	<bean id="exampleBean" class="com.infy.core.beans.ExampleBean">
+	<bean id="exampleBean" class="com.infy.core.dependencyinjections.beans.ExampleBean">
 	</bean>
 
-	<bean id="exampleBeanByCons" class="com.infy.core.beans.ExampleBeanByCons">
+	<bean id="exampleBeanByCons" class="com.infy.core.dependencyinjections.beans.ExampleBeanByCons">
 		<constructor-arg ref="injectedBean"/>
 	</bean>
 
-	<bean id="exampleBeanBySetter" class="com.infy.core.beans.ExampleBeanBySetter">
+	<bean id="exampleBeanBySetter" class="com.infy.core.dependencyinjections.beans.ExampleBeanBySetter">
 		 <property name="injectedBean" ref="injectedBean"/>
 	</bean>
     

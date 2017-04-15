@@ -1,5 +1,6 @@
-package com.infy.core.beans;
+package com.infy.core.dependencyinjections.main;
 
+import com.infy.core.dependencyinjections.beans.HelloWorld;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

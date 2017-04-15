@@ -1,5 +1,6 @@
-package com.infy.core.beans;
+package com.infy.core.dependencyinjections.main;
 
+import com.infy.core.dependencyinjections.beans.ExampleBean;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.xml.XmlBeanFactory;
 import org.springframework.core.io.ClassPathResource;
