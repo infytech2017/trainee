@@ -1,4 +1,4 @@
-package com.infy.core.beans;
+package com.infy.core.javabasedconfiguration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;
 
 @Configuration
-@ComponentScan(value="com.infy.core.beans")
+@ComponentScan(value="com.infy.core.javabasedconfiguration")
 public class MyConfiguration {
 
 	@Bean

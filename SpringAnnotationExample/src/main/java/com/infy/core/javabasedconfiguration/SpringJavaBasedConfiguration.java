@@ -1,8 +1,8 @@
-package com.infy.core.beans;
+package com.infy.core.javabasedconfiguration;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-public class AppSpringByApplicationContext
+public class SpringJavaBasedConfiguration
 {
     public static void main( String[] args )
     {

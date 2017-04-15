@@ -1,4 +1,4 @@
-package com.infy.core.beans;
+package com.infy.core.javabasedconfiguration;
 
 import java.util.Date;
 

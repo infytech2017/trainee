@@ -15,7 +15,7 @@
 	<property name="name" value="Sheshrao Talmale"></property>
 </bean>
 
-<!-- using @Autowiring annotation in below beans, byType and constructor -->
+<!-- using @Autowiring annotation in below javabasedconfiguration, byType and constructor -->
 <bean name="employeeAutowiredByTypeService" class="autowiring.service.EmployeeAutowiredByTypeService" />
 <bean name="employeeAutowiredByConstructorService" class="autowiring.service.EmployeeAutowiredByConstructorService" />
 </beans>
