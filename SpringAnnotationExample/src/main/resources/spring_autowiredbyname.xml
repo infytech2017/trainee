@@ -17,4 +17,9 @@
 
 <!-- autowiring byName, bean name should be same as the property name -->
 <bean name="employeeServiceByName" class="autowiring.service.EmployeeService" autowire="byName" />
+
+<bean name="employeeServiceByName1" class="autowiring.service.EmployeeService1" autowire="byName" />
 </beans>
+
+
+
