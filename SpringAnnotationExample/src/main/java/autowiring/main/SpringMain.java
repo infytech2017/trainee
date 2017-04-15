@@ -1,21 +1,19 @@
 package autowiring.main;
 
-import autowiring.service.EmployeeService;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class SpringMain {
 
 	public static void main(String[] args) {
 		ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("spring.xml");
-		
+
 /*		EmployeeService serviceByName = ctx.getBean("employeeServiceByName", EmployeeService.class);
 		System.out.println("Autowiring byName. Employee Name="+serviceByName.getEmployee().getName());
-		*/
 
 		EmployeeService serviceByType = ctx.getBean("employeeServiceByType", EmployeeService.class);
-		
+
 		System.out.println("Autowiring byType. Employee Name="+serviceByType.getEmployee().getName());
-		/*
+
 		EmployeeService serviceByConstructor = ctx.getBean("employeeServiceConstructor", EmployeeService.class);
 		
 		System.out.println("Autowiring by Constructor. Employee Name="+serviceByConstructor.getEmployee().getName());
@@ -31,7 +29,7 @@ public class SpringMain {
 		EmployeeAutowiredByConstructorService autowiredByConstructorService = ctx.getBean("employeeAutowiredByConstructorService",EmployeeAutowiredByConstructorService.class);
 		
 		System.out.println("@Autowired by Constructor. Employee Name="+autowiredByConstructorService.getEmployee().getName());
-*/
+			*/
 
 		ctx.close();
 	}
