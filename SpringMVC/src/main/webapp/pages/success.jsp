@@ -1,2 +1,2 @@
-Login Message : ${param.message}
+Login Message : ${message}
 
