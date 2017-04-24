@@ -11,7 +11,10 @@
 	<center>
 		<h2>Being Java Guys | Hello World</h2>
 		<h4>
-			<a href="hello.htm">Click Here</a>
+			<a href="hello.htm">Hello</a>
+			<a href="morning.htm">Morning</a>
+			<a href="afternoon.htm">Afternoon</a>
+			<a href="evening.htm">Evening</a>
 		</h4>
 	</center>
 </body>
