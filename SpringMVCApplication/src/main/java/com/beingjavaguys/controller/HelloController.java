@@ -10,27 +10,28 @@ import org.springframework.web.servlet.ModelAndView;
 //evening.html--> hello.showEveenjinhMessage();
 
 @Controller
-public class Hello {
+public class HelloController {
 	String message = "Hello Friends !";
 
 	@RequestMapping("/hello")
-	public ModelAndView showMessage() {
+	public ModelAndView showHelloMessage() {
 		System.out.println("from controller");
-		return new ModelAndView("hello", "message", message);
+		message = "Hello Friends !";
+		return new ModelAndView("hello", "msgHello", message);
 	}
 	
 	@RequestMapping("/morning")
 	public ModelAndView showMorningMessage() {
 		System.out.println("from controller");
-		message="Good Morning";
-		return new ModelAndView("hello", "message", message);	
+		message="Sheshji, Good Morning";
+		return new ModelAndView("morning", "msgMor", message);	
 	}
 	
 	@RequestMapping("/afternoon")
-	public ModelAndView showAfterMessage() {
+	public ModelAndView showAfternoonMessage() {
 		System.out.println("from controller");
-		message="Good Afternoon";
-		return new ModelAndView("hello", "message", message);		
+		message="Chanda, Good Afternoon";
+		return new ModelAndView("afternoon", "msgAft", message);		
 		// /hello.html--> home.showMessage();
 	}
 	
@@ -38,7 +39,7 @@ public class Hello {
 	public ModelAndView showEveningMessage() {
 		System.out.println("from controller");
 		message="Good Evening";
-		return new ModelAndView("hello", "message", message);		
+		return new ModelAndView("evening", "msgEvn", message);		
 		// /hello.html--> home.showMessage();
 	}
 }
