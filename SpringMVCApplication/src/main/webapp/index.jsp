@@ -16,6 +16,16 @@
 			<a href="afternoon.htm">Afternoon</a>
 			<a href="evening.htm">Evening</a>
 		</h4>
+	<br />
+	
+		<h2>Welcome To User Mang</h2>
+		<h4>
+			<a href="AddUser.htm">AddUser</a>
+			<a href="ViewUser.htm">ViewUser</a>
+			<a href="EditUser.htm">EditUser</a>
+			<a href="DeleteUser.htm">DeleteUser</a>
+		</h4>
+	
 	</center>
 </body>
 </html>
