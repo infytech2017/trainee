@@ -12,16 +12,16 @@ public class CrudController {
 String message = "Wellcome  Usaer Management!";
 
 @RequestMapping("/AddUser")
-	public ModelAndView addUser(){
-		message = "add User Successfully";
-		return new ModelAndView("AddUser","msgAdd ",message);
-	}
+public ModelAndView addUser(){
+message = "Add User Successfully";
+	return new ModelAndView("AddUser","msgAdd",message);
+}
 	
 @RequestMapping("/ViewUser")
-	public ModelAndView viewUser(){
-	message = "View User Successfully";
-		return new ModelAndView ("ViewUser","msgView ",message);
-	}
+public ModelAndView viewUser(){
+message = "View User Successfully";
+	return new ModelAndView("ViewUser","msgView",message);
+}
 @RequestMapping("/EditUser")
 	public ModelAndView editUser(){
 	message = "Edit User Successfully";

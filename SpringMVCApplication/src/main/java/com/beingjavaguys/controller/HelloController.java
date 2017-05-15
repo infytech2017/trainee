@@ -39,7 +39,14 @@ public class HelloController {
 	public ModelAndView showEveningMessage() {
 		System.out.println("from controller");
 		message="Good Evening";
-		return new ModelAndView("evening", "msgEvn", message);		
+		return new ModelAndView("evening", "msgEvn", message);
+		}	
 		// /hello.html--> home.showMessage();
+		
+		@RequestMapping("/shesh")
+		public ModelAndView showSheshMessage() {
+			System.out.println("from controller");
+			message="Hi guys R u free?";
+			return new ModelAndView("shesh", "msgShe", message);		
 	}
 }

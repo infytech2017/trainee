@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Spring MVC Application</title>
+<title>Spring Mvc Application</title>
 </head>
 <body>
 
@@ -13,8 +13,9 @@
 	<br />
 	<br />
 	<center>
-		<h2>Welcome !!</h2>
-		<h4>${msgEdit}</h4>
+		<h2>Welcome to infy  !!</h2>
+		<h4>${msgTins}</h4>
 	</center>
+
 </body>
 </html>

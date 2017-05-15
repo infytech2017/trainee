@@ -4,17 +4,15 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Spring MVC Application</title>
+<title>Spring mvc application</title>
 </head>
 <body>
+<br>
+</br>
+<center>
+<h2>Welcome to Banglore</h2>
+<h4>${msgCon }</h4>
+</center>
 
-<br />
-	<br />
-	<br />
-	<br />
-	<center>
-		<h2>Welcome !!</h2>
-		<h4>${msgEdit}</h4>
-	</center>
 </body>
 </html>
