@@ -1,19 +1,22 @@
 package com.beingjavaguys.controller;
 
-import org.springframework.stereotype.Controller;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
-
+import com.beingjavaguys.dao.CrudDaoImpl;
 
 @Controller
 public class CrudController {
 String message = "Wellcome  Usaer Management!";
 
+/*@Autowired*/
+CrudDaoImpl crudDaoImpl = new CrudDaoImpl();
+
 @RequestMapping("/AddUser")
 public ModelAndView addUser(){
-message = "Add User Successfully";
+    message = crudDaoImpl.addUser();
 	return new ModelAndView("AddUser","msgAdd",message);
 }
 	
@@ -32,5 +35,8 @@ message = "View User Successfully";
 	message = "Delete User Successfully";
 		return new ModelAndView("DeleteUser","msgDelete",message);
 	}
-	
+	//---------------------------------------------------------------//
+
+
+
 }
