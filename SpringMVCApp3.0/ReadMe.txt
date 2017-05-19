@@ -1,0 +1,1 @@
+http://www.beingjavaguys.com/2013/08/spring-maven-web-application-in-eclipse.html
